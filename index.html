@@ -19,11 +19,11 @@
             theme: {
                 extend: {
                     colors: {
-                        clifford: '#da373d',
-                        action: 'rgb(171, 239, 95)',
+                        'action': 'rgb(171, 239, 95)',
+                        'action-500': 'rgba(171, 239, 95, 0.5)',
                     },
                     fontFamily: {
-                        manrope: ['Manrope', 'sans-serif']
+                        'manrope': ['Manrope', 'sans-serif']
                     },
                 }
             }
@@ -57,6 +57,23 @@
                 <i class="fa-solid fa-bars bg-white p-3 rounded-full"></i>
             </div>
         </nav>
+        <!-- Hero Section -->
+        <section>
+            <div class="container mx-auto flex flex-col items-center justify-center">
+                <div class="px-5 md:px-0">
+                    <img class="object-cover object-center w-full" src="./assets/banner.png" alt="">
+                </div>
+                <div class="text-center md:w-3/4 space-y-6 py-5">
+                    <h1 class="md:text-6xl text-3xl font-extrabold">A barn house of this design has a striking appearance</h1>
+                    <p class="md:w-3/4 px-5 md:px-0 mx-auto">The barn house captivates with its blend of rustic charm and modern sophistication, featuring
+                        weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+                    <button class="bg-action-500 py-2 px-3 rounded-3xl">
+                        View Details
+                        <i class="fa-solid fa-arrow-right-long -rotate-45 p-1 bg-action rounded-full"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
     </header>
     <main>
     </main>
