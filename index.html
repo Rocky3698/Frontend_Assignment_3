@@ -26,7 +26,10 @@
                         'manrope': ['Manrope', 'sans-serif']
                     },
                     gridTemplateColumns: {
-                        '16': 'repeat(16, minmax(0, 1fr))',
+                        '18': 'repeat(18, minmax(0, 1fr))',
+                    },
+                    gridColumn: {
+                        'span-13': 'span 13 / span 13',
                     },
                     backgroundImage: {
                         'paper': "url('./assets/bg.jpg')",
@@ -213,11 +216,11 @@
                         of rustic
                         charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
                 </div>
-                <div class="grid md:grid-cols-16 grid-cols-1 md:grid-rows-2 gap-5">
-                    <div class="md:col-span-12 md:flex gap-4 border rounded-3xl p-4 order-1">
+                <div class="grid md:grid-cols-18 grid-cols-1 gap-5">
+                    <div class="md:col-span-13 md:flex gap-4 border rounded-3xl p-4 order-1">
                         <img class="rounded-2xl border-[#dbdbdb] border-2 border-dashed w-full md:w-auto object-cover object-center"
                             src="./assets/img1.png" alt="">
-                        <div class="flex flex-col justify-between space-y-3 items-start py-2">
+                        <div class="space-y-3 py-2">
                             <h4 class="text-2xl font-bold">Commercial</h4>
                             <p class="opacity-70 text-lg">The barn house captivates with its blend of rustic charm and
                                 modern. The barn house
@@ -230,19 +233,19 @@
                             </button>
                         </div>
                     </div>
-                    <div class="md:col-span-4 border rounded-3xl flex items-center justify-center order-2 p-3 md:p-0">
-                        <img class="rounded-2xl border-[#dbdbdb] border-2 border-dashed w-full md:w-auto object-cover object-center"
+                    <div class="md:col-span-5 border rounded-3xl flex items-center justify-center order-2 p-4">
+                        <img class="rounded-2xl border-[#dbdbdb] border-2 border-dashed w-full object-cover object-center"
                             src="./assets/img2.png" alt="">
                     </div>
                     <div
-                        class="md:col-span-3 border flex items-center justify-center rounded-3xl md:order-3 order-5 py-4">
-                        <img class="rounded-2xl border-[#dbdbdb] border-2 border-dashed w-11/12 md:w-auto object-cover object-center"
+                        class="md:col-span-4 border flex items-center justify-center rounded-3xl md:order-3 order-5 p-4">
+                        <img class="rounded-2xl border-[#dbdbdb] border-2 border-dashed w-full object-cover object-center"
                             src="./assets/img3.png" alt="">
                     </div>
                     <div class="md:col-span-10 md:flex gap-3 border rounded-3xl p-5 order-4 ">
                         <img class="rounded-2xl border-[#dbdbdb] border-2 border-dashed w-full md:w-auto object-cover object-center"
                             src="./assets/img4.png" alt="">
-                        <div class="flex flex-col justify-between items-start space-y-4 py-2">
+                        <div class="space-y-4 py-2">
                             <h4 class="text-2xl font-bold">Commercial</h4>
                             <p class="opacity-90 text-lg">The barn house captivates with its blend of rustic charm and
                                 modern. The barn house
@@ -255,12 +258,11 @@
                             </button>
                         </div>
                     </div>
-                    <div class="md:col-span-3 flex justify-center items-center border rounded-3xl order-5 py-4">
-                        <img class="rounded-2xl border-[#dbdbdb] border-2 border-dashed w-11/12 md:w-auto object-cover object-center"
+                    <div class="md:col-span-4 flex justify-center items-center border rounded-3xl order-5 p-4">
+                        <img class="rounded-2xl border-[#dbdbdb] border-2 border-dashed w-full object-cover object-center"
                             src="./assets/img5.png" alt="">
                     </div>
-                    <div
-                        class="md:col-span-3 flex justify-center items-center border rounded-3xl md:order-5 md:hidden order-3 py-4">
+                    <div class="flex justify-center items-center border rounded-3xl md:order-5 md:hidden order-3 py-4">
                         <img class="rounded-2xl border-[#dbdbdb] border-2 border-dashed w-11/12 md:w-auto object-cover object-center"
                             src="./assets/img5.png" alt="">
                     </div>
@@ -275,7 +277,7 @@
                         <i class="fa-solid fa-arrow-right-long"></i>
                         Rinterio News
                     </button>
-                    <h3 class="md:text-5xl text-3xl font-extrabold">Read Our Articles and News</h3>
+                    <h3 class="md:text-5xl text-2xl font-extrabold">Read Our Articles and News</h3>
                     <p class="opacity-80 md:w-1/2 mx-auto md:text-base text-sm">The barn house captivates with its blend
                         of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
                 </div>
@@ -392,7 +394,28 @@
             </div>
         </section>
     </main>
-    <footer></footer>
+    <footer class="bg-[#1e1e1e] text-white">
+        <div
+            class="text-center flex flex-col justify-center items-center gap-4 container mx-auto py-10 opacity-80 px-4 md:px-auto">
+            <div class="flex items-center gap-1 text-black">
+                <i class="fa-solid fa-arrow-right-long -rotate-45 p-1 bg-action rounded-full"></i>
+                <h3 class="font-bold text-3xl text-white">Rinterio</h3>
+            </div>
+            <p class="md:w-1/2">The barn house captivates with its blend of rustic charm and modern sophistication,
+                featuring weathered wood, sleek metal accents.</p>
+            <ul class="md:flex gap-20 font-semibold space-y-5 my-5">
+                <li>Home</li>
+                <li>Service</li>
+                <li>Portfolio</li>
+                <li>Blogs</li>
+                <li>Contact Us</li>
+            </ul>
+            <button class="bg-action w-full md:w-auto p-3 rounded-3xl text-black">
+                Book Consult
+                <i class="fa-solid fa-arrow-right-long -rotate-45 text-white bg-black p-1 rounded-full"></i>
+            </button>
+        </div>
+    </footer>
 </body>
 
 </html>
