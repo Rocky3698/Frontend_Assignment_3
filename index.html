@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Renterio</title>
 
     <!-- Google Font CDN -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,10 +20,11 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
+                        action: 'rgb(171, 239, 95)',
                     },
                     fontFamily: {
                         manrope: ['Manrope', 'sans-serif']
-                    }
+                    },
                 }
             }
         }
@@ -31,8 +32,34 @@
 </head>
 
 <body class="font-manrope">
-    <header></header>
-    <main></main>
+    <header class="bg-[#f7f7f7]">
+        <nav class="flex items-center justify-between px-2 md:px-0 md:container mx-auto py-5">
+            <div class="flex items-center gap-1">
+                <i class="fa-solid fa-arrow-right-long -rotate-45 p-1 bg-action rounded-full"></i>
+                <h3 class="font-bold text-3xl">Rinterio</h3>
+            </div>
+            <ul class="md:flex gap-6 font-semibold hidden">
+                <li>Home</li>
+                <li class="opacity-50">Service</li>
+                <li class="opacity-50">Portfolio</li>
+                <li class="opacity-50">Blogs</li>
+                <li class="opacity-50">Contact Us</li>
+            </ul>
+            <div class="space-x-4 hidden lg:block">
+                <i class="fa-solid fa-magnifying-glass bg-white p-3 rounded-full"></i>
+                <i class="fa-solid fa-cart-shopping bg-white p-3 rounded-full"></i>
+                <button class="bg-action p-3 rounded-3xl ">
+                    Book Consult
+                    <i class="fa-solid fa-arrow-right-long -rotate-45 text-white bg-black p-1 rounded-full"></i>
+                </button>
+            </div>
+            <div class="md:hidden">
+                <i class="fa-solid fa-bars bg-white p-3 rounded-full"></i>
+            </div>
+        </nav>
+    </header>
+    <main>
+    </main>
     <footer></footer>
 </body>
 
