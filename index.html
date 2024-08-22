@@ -81,9 +81,11 @@
     </header>
     <main>
         <!-- About section -->
-        <section class="bg-[#f4f4f4]">
-            <div
-                class="md:flex md:flex-row md:items-center md:justify-evenly container mx-auto py-16 flex flex-col items-center justify-center px-5 md:px-0 space-y-6 text-center md:text-start">
+        <section class="bg-[#f4f4f4] ">
+            <div class="md:flex md:flex-row md:items-center md:justify-evenly container mx-auto py-16 flex flex-col items-center justify-center px-5 md:px-0 space-y-6 text-center md:text-start relative">
+                <div class="absolute top-16 hidden md:block left-0">
+                    <img src="./assets/Vector.png" alt="">
+                </div>
                 <div class="space-y-6 md:w-1/2">
                     <button class="bg-white rounded-3xl px-3 py-1 ">
                         <i class="fa-solid fa-arrow-right-long"></i>
@@ -119,10 +121,28 @@
                 </div>
             </div>
         </section>
+
         <section class="bg-[#f4f4f4]">
-            <div class="container mx-auto bg-white">
-                <div>
-                    <i class="fa-solid fa-comment-dots"></i>
+            <div class="md:container w-5/6 mx-auto bg-white p-5 rounded-xl grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-y-10">
+                <div class="text-center space-y-3 opacity-70">
+                    <i class="fa-regular fa-comment-dots text-2xl"></i>
+                    <h2 class="text-4xl font-extrabold">235+</h2>
+                    <small class="text-lg font-light">Happy Client Review</small>
+                </div>
+                <div class="text-center space-y-3 opacity-70">
+                    <i class="fa-solid fa-building  text-2xl"></i>
+                    <h2 class="text-4xl font-extrabold">50+</h2>
+                    <small class="text-lg font-light">Work Department</small>
+                </div>
+                <div class="text-center space-y-3 opacity-70">
+                    <i class="fa-solid fa-users text-2xl"></i>
+                    <h2 class="text-4xl font-extrabold">30k+</h2>
+                    <small class="text-lg font-light">Our Happy Client</small>
+                </div>
+                <div class="text-center space-y-3 opacity-70">
+                    <i class="fa-solid fa-user-group text-2xl"></i>
+                    <h2 class="text-4xl font-extrabold">307+</h2>
+                    <small class="text-lg font-light">Staff Members</small>
                 </div>
             </div>
         </section>
